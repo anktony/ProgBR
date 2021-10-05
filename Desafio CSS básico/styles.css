@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.cartao{
+    width: 400px;
+    height: 200px;
+    background-color: #ffffff;
+    background-image: url("backgorund.png");
+    background-size: 101%;   
+}
+
+ul{
+    list-style-position: inside;
+    padding: 20px;
+}
+
+h3{
+    font-weight: 500; 
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+#li1 { list-style-image: url(assets/Insta.png);}
+
+#li2 { list-style-image: url(assets/Twitter.png);}
+
+#li3 { list-style-image: url(assets/youtube.png);}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:visited{
+    color: black;
+}
