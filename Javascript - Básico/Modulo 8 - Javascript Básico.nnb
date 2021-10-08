@@ -31,7 +31,14 @@
         {
             "language": "javascript",
             "source": [
-                "/*Array*/\r\nNomeDoArray = new Array(1, 2, 3, 4, 5)"
+                "/*Array*/\r\nvar nomeArray = [\"dale\", \"dele\", \"doly\"]; //declaração do array\r\nvar nomeDoArray = new Array(1, 2, 3, 4, 5); // declaração do array;\r\nnomeArray.length // Retorna o tamanho do array(quantidade de elementos);\r\n\r\nfor(var i in nomeArray){console.log(nomeArray[i])}; // equivalente ao foreach do c#; in retorna o index para i; of retorna o elemento para i;\r\nfor(var i of nomeArray){console.log(i)}; // equivalente ao foreach do c#; in retorna o index para i; of retorna o elemento para i;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "//MÉTODOS\r\n/*.forEach*/ nomeDoArray.forEach(function(elemento){console.log(elemento)}) //\"elemento\" recebe os elementos dentro do array"
             ],
             "outputs": []
         },

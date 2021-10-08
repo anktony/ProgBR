@@ -1,0 +1,46 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Módulo 8 - Funções Javascript\r\n* **Fonte:** [ProgBR WebDev FullStack](https://programadorbr.club.hotmart.com/lesson/0Z72azoJeN/funcoes);"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Códigos"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "csharp",
+            "source": [
+                "//DECLARAÇÕES\r\nFunction exemplo(param1, param2){Ação(var retorno = param1 + param2); return retorno}; // declaração normal\r\nexemplo1: function(){return retorno}; // Declaração anônima\r\nvar exemplo2 = Function(param1, param2){Ação(var retorno = param1 + param2); return retorno}; // declaração de função anônima;\r\nvar exemplo3 = Function(param1, param2) => {Ação(var retorno = param1 + param2); return retorno}; // arrow functions;\r\n\r\n\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* physics material: Material usado para ajustar friction e bounciness;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* **ver** arrow functions\r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Módulo 8 - Objetos e Métodos Javascript\r\n* **Fonte:** [ProgBR WebDev FullStack](https://programadorbr.club.hotmart.com/lesson/mBOnmbqZ7R/objetos-propriedades);"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Códigos"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "csharp",
+            "source": [
+                "//DECLARAÇÃo DE OBJETOS\r\nvar objeto1 = new Object(); // declaração de objeto vazio;\r\nvar objeto2 = new Object({prop1: \"algumacoisa\", prop2:[3, 2, 1]}); // declaração que não faz muito sentido kkkkkk mas funciona;\r\nvar objeto = { prop1: \"algo\", prop2: [1, 2, 3]}; //declaração padrão de um objeto;\r\n\r\n//INSTANCIANDO OBJETO VIA FUNÇÃO\r\nvar a = new objeto(\"zalgo\", [4, 5, 6]);\r\n//\r\nfunction criarObjeto(param1, param2, param3){\r\n    return{\r\n        prop1: param1,\r\n        prop2: param2,\r\n        prop3: param3,\r\n\r\n    }\r\n}\r\n\r\n//ACESSANDO PROPRIEDADES\r\nconsole.log(objeto[\"prop1\"]) // retorna o elemento da propriedade prop1\r\nconsole.log(objeto.prop2[1]) // retorna o elemento 1 da propriedade prop2 \r\nconsole.log(objeto) // imprime todo o objeto no console, com navegação em dropdown\r\n\r\n//ADICIONANDO PROPRIEDADES\r\nobjeto.novaProp1 = 123456789; // adicionando nova propriedade\r\nobjeto[\"novaProp2\"] = \"propriedade nova\" // adicionando nova propriedade; O campo novaProp pode receber o valor de uma variável;\r\n\r\n//MÉTODOS \r\n/*.forEach*/ "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n* pode-se adicionar novas propriedades mesmo após o objeto ter sido criado;\r\n* O this quando usado dentro de um objeto junto de uma prop, indica que esta pertence ao objeto atual; Ex: this.prop[0];\r\n* Um novo objeto pode ser instanciado através de uma função. Visto acima;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* Propriedades são as \"variáveis\" do objeto;\r\n* Métodos são as \"funções\" do objeto;\r\n*  "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* **ver** \r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}
