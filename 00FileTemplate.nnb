@@ -1,0 +1,46 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Source\r\n* **Fonte:** link da fonte;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Códigos"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "csharp",
+            "source": [
+                "\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* physics material: Material usado para ajustar friction e bounciness;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* sempre que for trabalhar com UI Elements é necessario importar UnityEgine.UI;\r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}

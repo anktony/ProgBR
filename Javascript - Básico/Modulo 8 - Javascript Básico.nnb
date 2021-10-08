@@ -1,0 +1,60 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Módulo 8 - Javascript Básico\r\n* **Fonte:**  [ProgramadorBR WebDev Full stack](https://programadorbr.club.hotmart.com/lesson/d64lAEbXej/primeiro-contato-%252B-hello-world)"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Códigos"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "\"/n\"                  //--> Caractere Especial que pula uma linha\r\nparseInt(\"5\")//--> converte a string/float entre parenteses para inteiro;\r\nparseFloat(\"3\")//--> transforma string/int em num com casas decimais;\r\nalert(\"Texto\")        //--> exibe um balão de aviso;\r\nprompt(\"pergunta\")    //exibe um balão com texto e um input; retorna a string informada no input;\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "/*Condicionais - SWITCH*/\r\nswitch(valores){\r\n    case valor1: Ação1(); break;\r\n    case valor2: Ação2(); break;\r\n    default: Ação3(); break;\r\n}"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "/*Array*/\r\nNomeDoArray = new Array(1, 2, 3, 4, 5)"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n## Tipos de Variáveis\r\n* **Boolean**   - True/False; Aparece em azul no console;\r\n* **Null**      - A variável está vazia;\r\n* **Undefined** - Quando a variavel nao é inicializada / o programa nao sabe o que tem ali dentro;\r\n* **Number**    - Números; Aparecem em azul no console;\r\n* **String**    - Caracteres em geral; aparecem em preto no console\r\n\r\n## Operações Aritiméticas\r\n* **\\+**    -> Adição\r\n* **\\-**    -> Subtração\r\n* **\\***    -> Multiplicação\r\n* **/**     -> Divisão\r\n* **%**     -> Módulo (Resto da Divisão)\r\n* **\\+\\+**  -> Incremento\r\n* **\\-\\-**  -> Deremento\r\n\r\n## IF / ELSE / ELSE IF\r\n* se ouver apenas uma linha de codigo dentro do if não é preciso usar chaves({})\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* NaN --> \"Not a Number\": resultado exibido quando tenta-se efetuar operações entre valores não numéricos.\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* sempre que for trabalhar com UI Elements é necessario importar UnityEgine.UI;\r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}
