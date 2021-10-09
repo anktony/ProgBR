@@ -45,7 +45,7 @@
         {
             "language": "markdown",
             "source": [
-                "-----\r\n# Anotações\r\n## Tipos de Variáveis\r\n* **Boolean**   - True/False; Aparece em azul no console;\r\n* **Null**      - A variável está vazia;\r\n* **Undefined** - Quando a variavel nao é inicializada / o programa nao sabe o que tem ali dentro;\r\n* **Number**    - Números; Aparecem em azul no console;\r\n* **String**    - Caracteres em geral; aparecem em preto no console\r\n\r\n## Operações Aritiméticas\r\n* **\\+**    -> Adição\r\n* **\\-**    -> Subtração\r\n* **\\***    -> Multiplicação\r\n* **/**     -> Divisão\r\n* **%**     -> Módulo (Resto da Divisão)\r\n* **\\+\\+**  -> Incremento\r\n* **\\-\\-**  -> Deremento\r\n\r\n## IF / ELSE / ELSE IF\r\n* se ouver apenas uma linha de codigo dentro do if não é preciso usar chaves({})\r\n"
+                "-----\r\n# Anotações\r\n## Tipos de Variáveis\r\n* **Boolean**   - True/False; Aparece em azul no console;\r\n* **Null**      - A variável está vazia;\r\n* **Undefined** - Quando a variavel nao é inicializada / o programa nao sabe o que tem ali dentro;\r\n* **Number**    - Números; Aparecem em azul no console;\r\n* **String**    - Caracteres em geral; aparecem em preto no console\r\n\r\n## Operações Aritiméticas\r\n* **\\+**    -> Adição\r\n* **\\-**    -> Subtração\r\n* **\\***    -> Multiplicação\r\n* **/**     -> Divisão\r\n* **%**     -> Módulo (Resto da Divisão)\r\n* **\\+\\+**  -> Incremento\r\n* **\\-\\-**  -> Deremento\r\n\r\n## IF / ELSE / ELSE IF\r\n* se ouver apenas uma linha de codigo dentro do if não é preciso usar chaves({})\r\n\r\n## Escopo: Var, Let e Const\r\n*\r\n"
             ],
             "outputs": []
         },

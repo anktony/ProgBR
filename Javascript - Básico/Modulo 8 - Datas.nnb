@@ -1,0 +1,46 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Módulo 8 - Funções Javascript\r\n* **Fonte:** [ProgBR WebDev FullStack](https://programadorbr.club.hotmart.com/lesson/Mk7QoX0r4y/datas);"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Códigos"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "javascript",
+            "source": [
+                "//DECLARAÇÕES\r\nvar d = new Date(); console.log(d); //data e horário do momento;\r\nvar d = new Date(year, month, day, hours, minutes, seconds, milliseconds); //criação de data/tempo específicos;\r\n    //incluir apenas parâmetros desejados;\r\nvar dateExample = new Date(2018, 08, 12);// cria data 2018/08/12 à meia-noite;\r\nvar dataExample2 = new Date(\"02 05 2017 23:25\");// declaração com parâmetros em String;\r\nvar dataExample2 = new Date(\"05/25/1999\");      // declaração com parâmetros em String;\r\nvar dataExample2 = new Date(\"05-28-1999\");      // declaração com parâmetros em String;\r\n "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n* A data/tempo base para os calculos é **31 DE DEZEMBRO de 1969 16:00:00 GMT-0800**;\r\n* O parâmetro **month** pode ser passado pelas iniciais do Mês;\r\n* A ordem dos parâmetros em string deve seguir o padrão americano (MM/DD/AA);\r\n* A passagem de parâmetros em string da data pode ser feita em vários formatos, como visto na cell **Códigos**;\r\n* Se for passado apenas um número a função entende que são os milisegundos;\r\n* Passar apenas o ano porém em string, retornará o ultimo dia do ano anterior, no horário padrão;\r\n* expressões que resultem em datas inválidas(Mês ou dia inválidos) retornarão *Invalid Date* \r\n\r\n## Métodos\r\n**\\*Para modificar ao invés de retornar, substituir o *get* por *set*.**\r\n* Date.getFullYear()     --> Retorna apenas o ano;\r\n* Date.getDate()         --> Retorna apenas o dia;\r\n* Date.getMonth()        --> Retorna Apenas o mês em número(0-11);\r\n* Date.getDay()          --> Retorna o dia da semana em número(0-6);\r\n* Date.getMinutes()      --> Retorna apenas os minutos;\r\n* Date.getSeconds()      --> Retorna apenas os segundos;\r\n* Date.getMilliseconds() --> Retorna apenas os millisegundos;\r\n* Date.getTime()         --> Retorna o valor em milisegundos desde a base de cálculo;\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* "
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* **ver** arrow functions\r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}
