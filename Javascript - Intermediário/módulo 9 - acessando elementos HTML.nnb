@@ -1,0 +1,32 @@
+{
+    "cells": [
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Módulo 9 - ACESSANDO DOCUMENTOS COM HTML\r\n* **Fonte:** [ProgBR WebDev FullStack](https://programadorbr.club.hotmart.com/lesson/xkOX5PGN4W/introducao-javascript-intermediario);"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Anotações\r\n* Métodos *getElements*(no plural) sempre retornam um array, contendo os elementos passados em parâmetro\r\n* .innerText -> Retorna somente o texto, sem formatações ou elementos html. \r\n* .innerHtml -> Retorna o texto, COM formatações e COM elementos html.\r\n* .textContent -> Retorna o text COM formatações, mas sem os elementos html.\r\n* atributos criados são retornados/acessados/criados através de. *.getAttribute(\"\")/.setAttribute(\"\")*\r\n\r\n# Window\r\n## Propriedades\r\n* **closed**\tReturns a Boolean value indicating whether a window has been closed or not\r\n* **console**\tReturns a reference to the Console object, which provides methods for logging information to the browser's console (See Console object)\r\n* **defaultStatus**\tSets or returns the default text in the statusbar of a window\r\n* **document**\tReturns the Document object for the window (See Document object)\r\n* **frameElement**\tReturns the *\\<iframe>* element in which the current window is inserted\r\n* **frames**\tReturns all *\\<iframe>* elements in the current window\r\n* **history**\tReturns the History object for the window (See History object)\r\n* **innerHeight**\tReturns the height of the window's content area (viewport) including scrollbars\r\n* **innerWidth**\tReturns the width of a window's content area (viewport) including scrollbars\r\n* **length**\tReturns the number of *\\<iframe>* elements in the current window\r\n* **localStorage**\tAllows to save key/value pairs in a web browser. Stores the data with no expiration date\r\n* **location**\tReturns the Location object for the window (See Location object)\r\n* **name**\tSets or returns the name of a window\r\n* **navigator**\tReturns the Navigator object for the window (See Navigator object)\r\n* **opener**\tReturns a reference to the window that created the window\r\n* **outerHeight**\tReturns the height of the browser window, including toolbars/scrollbars\r\n* **outerWidth**\tReturns the width of the browser window, including toolbars/scrollbars\r\n* **pageXOffset**\tReturns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window\r\n* **pageYOffset**\tReturns the pixels the current document has been scrolled (vertically) from the upper left corner of the window\r\n* **parent**\tReturns the parent window of the current window\r\n* **screen**\tReturns the Screen object for the window (See Screen object)\r\n* **screenLeft**\tReturns the horizontal coordinate of the window relative to the screen\r\n* **screenTop**\tReturns the vertical coordinate of the window relative to the screen\r\n* **screenX**\tReturns the horizontal coordinate of the window relative to the screen\r\n* **screenY**\tReturns the vertical coordinate of the window relative to the screen\r\n* **sessionStorage**\tAllows to save key/value pairs in a web browser. Stores the data for one session\r\n* **scrollX**\tAn alias of pageXOffset\r\n* **scrollY**\tAn alias of pageYOffset\r\n* **self**\tReturns the current window\r\n* **status**\tSets or returns the text in the statusbar of a window\r\n* **top**\tReturns the topmost browser window\r\n## Métodos\r\n* **alert()**\tDisplays an alert box with a message and an OK button\r\n* **atob()**\tDecodes a base-64 encoded string\r\n* **blur()**\tRemoves focus from the current window\r\n* **btoa()**\tEncodes a string in base-64\r\n* **clearInterval()**\tClears a timer set with setInterval()\r\n* **clearTimeout()**\tClears a timer set with setTimeout()\r\n* **close()**\tCloses the current window\r\n* **confirm()**\tDisplays a dialog box with a message and an OK and a Cancel button\r\n* **focus()**\tSets focus to the current window\r\n* **getComputedStyle()**\tGets the current computed CSS styles applied to an element\r\n* **getSelection()**\tReturns a Selection object representing the range of text selected by the user\r\n* **matchMedia()**\tReturns a MediaQueryList object representing the specified CSS media query string\r\n* **moveBy()**\tMoves a window relative to its current position\r\n* **moveTo()**\tMoves a window to the specified position\r\n* **open()**\tOpens a new browser window\r\n* **print()**\tPrints the content of the current window\r\n* **prompt()**\tDisplays a dialog box that prompts the visitor for input\r\n* **requestAnimationFrame()**\tRequests the browser to call a function to update an animation before the next repaint\r\n* **resizeBy()**\tResizes the window by the specified pixels\r\n* **resizeTo()**\tResizes the window to the specified width and height\r\n* **scroll()**\tDeprecated. This method has been replaced by the scrollTo() method.\r\n* **scrollBy()**\tScrolls the document by the specified number of pixels\r\n* **scrollTo()**\tScrolls the document to the specified coordinates\r\n* **setInterval()**\tCalls a function or evaluates an expression at specified intervals (in milliseconds)\r\n* **setTimeout()**\tCalls a function or evaluates an expression after a specified number of milliseconds\r\n* **stop()**\tStops the window from loading\r\n\r\n"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Conceitos e Expressões\r\n* physics material: Material usado para ajustar friction e bounciness;"
+            ],
+            "outputs": []
+        },
+        {
+            "language": "markdown",
+            "source": [
+                "-----\r\n# Observações:\r\n* sempre que for trabalhar com UI Elements é necessario importar UnityEgine.UI;\r\n"
+            ],
+            "outputs": []
+        }
+    ]
+}
