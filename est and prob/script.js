@@ -11,6 +11,7 @@ function Media(){
     for(var i = 0; i<fi.length; i++){
         
     }
+    
 }
 
 function DesvioPadrao(){
